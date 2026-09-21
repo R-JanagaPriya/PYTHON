@@ -1,0 +1,23 @@
+pin = int(input("Enter PIN: "))
+
+if pin == 1234:
+
+    print("Login Successful")
+
+    balance = int(input("Enter Balance: "))
+    withdrawal = int(input("Enter Withdrawal Amount: "))
+
+    if withdrawal <= balance:
+
+        remaining = balance - withdrawal
+
+        print("Withdrawal Successful")
+        print("Remaining Balance =", remaining)
+
+    else:
+
+        print("Insufficient Balance")
+
+else:
+
+    print("Invalid PIN")
