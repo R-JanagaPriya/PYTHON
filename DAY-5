@@ -1,0 +1,54 @@
+# Variables
+
+a = 20
+b = 6
+
+print("a =", a)
+print("b =", b)
+
+
+# Arithmetic Operators
+
+print("\nArithmetic Operations")
+
+print("Addition =", a + b)
+print("Subtraction =", a - b)
+print("Multiplication =", a * b)
+print("Division =", a / b)
+print("Floor Division =", a // b)
+print("Modulus =", a % b)
+print("Exponent =", a ** b)
+
+
+# Type Conversion
+
+print("\nType Conversion")
+
+x = 25
+
+print("Integer x =", x)
+print("Integer to Float =", float(x))
+
+
+y = 15.75
+
+print("Float y =", y)
+print("Float to Integer =", int(y))
+
+
+z = "100"
+
+print("String z =", z)
+print("String to Integer =", int(z))
+
+
+p = 50
+
+print("Integer p =", p)
+print("Integer to String =", str(p))
+
+
+q = "25.5"
+
+print("String q =", q)
+print("String to Float =", float(q))
