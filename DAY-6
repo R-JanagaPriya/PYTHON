@@ -1,0 +1,30 @@
+print("NUMBER ANALYSIS")
+
+start = int(input("Enter starting number: "))
+end = int(input("Enter ending number: "))
+
+print("\nNumbers from", start, "to", end)
+
+for number in range(start, end + 1):
+
+    print(number)
+
+print("\nEven Numbers")
+
+for number in range(start, end + 1):
+
+    if number % 2 == 0:
+        print(number)
+
+print("\nOdd Numbers")
+
+for number in range(start, end + 1):
+
+    if number % 2 != 0:
+        print(number)
+
+print("\nSquares")
+
+for number in range(start, end + 1):
+
+    print(number, "=", number ** 2)
